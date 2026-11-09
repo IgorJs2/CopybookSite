@@ -1,8 +1,8 @@
-# Copybook — Distance-Learning Platform (MERN)
+# Copybook: distance-learning platform (MERN)
 
 > [!WARNING]
-> **DEPRECATED — OLD LEARNING PROJECT (2022).** Archived and no longer maintained. Kept public to show my early progress.
-> For my current production work see [my GitHub profile](https://github.com/IgorJs2) — Metrocraft 2036 and Stalcraft LAB.
+> DEPRECATED: an old learning project (2022). Archived and no longer maintained. I keep it public to show where I started.
+> My current work (Metrocraft 2036 and Stalcraft LAB) is on [my GitHub profile](https://github.com/IgorJs2).
 
 A Google Classroom-style web app for remote schooling. Teachers create classes, publish materials and homework, and grade answers; students join a class by code, submit homework and track their grades.
 
