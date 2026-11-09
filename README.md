@@ -1,32 +1,33 @@
-# Copybook Site MERN
-Site for distance learning designed and developed using React | Express | Mongodb | mongoose.js | Node.js | ES6 features
+# Copybook — Distance-Learning Platform (MERN)
 
-# Design
-https://www.figma.com/file/qEtqRSHn6WyigFe7ELyVDj/Copybook?node-id=0%3A1
+> [!WARNING]
+> **DEPRECATED — OLD LEARNING PROJECT (2022).** Archived and no longer maintained. Kept public to show my early progress.
+> For my current production work see [my GitHub profile](https://github.com/IgorJs2) — Metrocraft 2036 and Stalcraft LAB.
 
-# Pre-reqs
-To build and run this app locally you will need a few things:
-- Install [Node.js](https://nodejs.org/en/)
-- Create [MongoDB] base in browser and get MongoURI(https://www.mongodb.com/)
-- Install [VS Code](https://code.visualstudio.com/)
+A Google Classroom-style web app for remote schooling. Teachers create classes, publish materials and homework, and grade answers; students join a class by code, submit homework and track their grades.
 
-# Getting started
-- Clone the repository
- 
-```
-git clone https://github.com/IgorJs2/Copybook-Site.git
-```
-- Install dependencies
+## Features
+- Sign-up and login with JWT, password change and reset by email (Nodemailer)
+- Create, join, leave and delete classes
+- Class materials, homework assignments with file uploads (Multer), student answers
+- Gradebook with charts (Chart.js)
+- UI localization
 
-```
-npm run modules
-```
+## Tech stack
+| Layer | Technologies |
+|---|---|
+| Frontend | React, Redux Toolkit, Redux Thunk, React Router, Chart.js, Materialize CSS |
+| Backend | Node.js, Express, express-validator, JWT, bcrypt, Multer, Nodemailer |
+| Database | MongoDB, Mongoose |
+| Design | [Figma mockup](https://www.figma.com/file/qEtqRSHn6WyigFe7ELyVDj/Copybook?node-id=0%3A1) |
 
-- Go to /server/config/default.json and set your MongoURI
-
-- Run site by command
-
-```
+## Run locally
+```bash
+git clone https://github.com/IgorJs2/CopybookSite.git
+cd CopybookSite
+npm run modules      # installs client and server dependencies
+# set your MongoDB URI in server/config/default.json
 npm run start
 ```
 
+> Credentials that appear in old commits belonged to throwaway test databases and are no longer valid.
